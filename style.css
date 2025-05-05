@@ -1,0 +1,81 @@
+/* Header  */
+header {
+    background-color: white;
+    height: 60px;
+}
+
+.name {
+    margin-left: 40%;
+    margin-top: 10px;
+}
+
+
+ul li {
+    display: inline-block;
+    width: 5rem;
+    margin-top: 10px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.active-link::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0.18rem;
+    left: 0;
+    top: 2rem;
+    background-color: blue;
+}
+
+/* main  */
+
+.home {
+    height: 600px;
+}
+
+.home a {
+    text-decoration: none;
+    color: white;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 54px;
+}
+
+img {
+    width: 400px;
+}
+
+.skill {
+    background-color: aliceblue;
+    border-radius: 5px;
+    margin: 5rem;
+}
+
+.skillscale {
+    width: 95%;
+    border-bottom: 3px solid blue;
+}
+
+.work img {
+    width: 300px;
+}
+
+#contact input {
+    margin-bottom: 2rem;
+}
+
+footer {
+    background-color: hsl(224, 56%, 12%);
+    color: white;
+}
